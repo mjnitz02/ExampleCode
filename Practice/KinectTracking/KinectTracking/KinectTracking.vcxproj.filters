@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{f32847eb-50bb-4a07-b1d0-e97e407ddeda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\SkeletonAnalyzer">
+      <UniqueIdentifier>{cccf3951-3e7f-4ecf-89fd-2966ebe4b00c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\SkeletonVector">
+      <UniqueIdentifier>{c4dbea84-ff92-43c6-a27b-2413d3e8a986}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ImageRenderer">
+      <UniqueIdentifier>{e8cf6c5a-0911-4028-a7a6-e045a017445e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\SQLInterface">
+      <UniqueIdentifier>{abcf7085-c667-4c82-8e9b-c2609c8ef71b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\TimeTrack">
+      <UniqueIdentifier>{2e1b298d-cef1-4735-ad7e-82df45038585}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KinectTracking.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vector3.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SkeletonAnalyzer.h">
+      <Filter>Classes\SkeletonAnalyzer</Filter>
+    </ClInclude>
+    <ClInclude Include="SkeletonVector.h">
+      <Filter>Classes\SkeletonVector</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageRenderer.h">
+      <Filter>Classes\ImageRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="TupleList.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="BMI.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLInterface.h">
+      <Filter>Classes\SQLInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeTrack.h">
+      <Filter>Classes\TimeTrack</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KinectTracking.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkeletonAnalyzer.cpp">
+      <Filter>Classes\SkeletonAnalyzer</Filter>
+    </ClCompile>
+    <ClCompile Include="SkeletonVector.cpp">
+      <Filter>Classes\SkeletonVector</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageRenderer.cpp">
+      <Filter>Classes\ImageRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="SQLInterface.cpp">
+      <Filter>Classes\SQLInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeTrack.cpp">
+      <Filter>Classes\TimeTrack</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="KinectTracking.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="KinectTracking.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
